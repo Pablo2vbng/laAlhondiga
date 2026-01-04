@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercado La Alhóndiga - Inicio</title>
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/logo.svg" alt="Logo Mercado" width="50" class="rounded-circle bg-light">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active fw-bold" href="index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link fw-bold" href="puestos.html">Puestos</a></li>
+                    <li class="nav-item"><a class="nav-link fw-bold" href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- END NAVBAR -->
+    <!-- BREADCRUMBS -->
+    <div class="container mt-3">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item active" aria-current="page">Inicio</li>
+            </ol>
+        </nav>
+    </div>
+    <!-- END BREADCRUMBS -->
+    <!-- CAROUSEL -->
+    <header id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/intro.jpg" class="d-block w-100" alt="Productos frescos">
+                <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded img-carrousel">
+                    <h1>Regala algo fresco</h1>
+                    <p>Encuentra lo que llevas años saboreando.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/frutas.jpg" class="d-block w-100" alt="Frutería">
+                <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded">
+                    <h1>Calidad de barrio</h1>
+                    <p>Los mejores productos de proximidad.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </header>
+
+    <main class="container my-5">
+        <section class="text-center mb-5">
+            <h2 class="display-5 fw-bold custom-purple">¿Qué ofrecemos?</h2>
+            <p class="lead">Explora nuestras secciones principales.</p>
+        </section>
+        <!-- END CAROUSEL -->
+        <!-- CARDS SECTION -->
+        <div class="row g-4">
+            <div class="col-md-6 col-lg-3">
+                <article class="card h-100 shadow-sm border-0 transition-hover">
+                    <img src="img/frutas.jpg" class="card-img-top" alt="Frutería">
+                    <div class="card-body">
+                        <span class="badge bg-warning text-dark mb-2">FRUTERÍA</span>
+                        <h5 class="card-title">Las mejores frutas</h5>
+                        <p class="card-text text-muted small">Especialistas en frutas de la pasión.</p>
+                    </div>
+                    <div class="card-footer bg-transparent border-0">
+                        <small class="fw-bold">09:00 - 14:00</small>
+                    </div>
+                </article>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <article class="card h-100 shadow-sm border-0 transition-hover">
+                    <img src="img/panaderia.jpg" class="card-img-top" alt="Frutería">
+                    <div class="card-body">
+                        <span class="badge bg-warning text-dark mb-2">PANADERIA</span>
+                        <h5 class="card-title">Panes para Celiacos</h5>
+                        <p class="card-text text-muted small">Especialistas en pastas</p>
+                    </div>
+                    <div class="card-footer bg-transparent border-0">
+                        <small class="fw-bold">09:00 - 14:00</small>
+                    </div>
+                </article>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <article class="card h-100 shadow-sm border-0 transition-hover">
+                    <img src="img/carniceria.jpg" class="card-img-top" alt="Frutería">
+                    <div class="card-body">
+                        <span class="badge bg-warning text-dark mb-2">CARNICERÍA</span>
+                        <h5 class="card-title">Carnes selectas</h5>
+                        <p class="card-text text-muted small">Las mejores carnes del mercado</p>
+                    </div>
+                    <div class="card-footer bg-transparent border-0">
+                        <small class="fw-bold">09:00 - 14:00</small>
+                    </div>
+                </article>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <article class="card h-100 shadow-sm border-0 transition-hover">
+                    <img src="img/puesto4.jpg" class="card-img-top" alt="Frutería">
+                    <div class="card-body">
+                        <span class="badge bg-warning text-dark mb-2">ENCURTIDOS</span>
+                        <h5 class="card-title">Calida Suprema</h5>
+                        <p class="card-text text-muted small">Los mejores quesicos</p>
+                    </div>
+                    <div class="card-footer bg-transparent border-0">
+                        <small class="fw-bold">09:00 - 14:00</small>
+                    </div>
+                </article>
+            </div>
+        </div>
+        <!--END CARDS SECTION -->
+        <!-- ACCORDION  -->
+        <section class="mt-5">
+            <h3 class="mb-4 custom-purple text-center">Preguntas Frecuentes</h3>
+            <div class="accordion" id="faqAccordion">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne">
+                            ¿Hay parking gratuito?
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">Sí, disponemos de 1 hora gratuita por compras superiores a 20€.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- END ACCORDION  -->
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="custom-bg-purple text-white py-4 mt-auto">
+        <div class="container text-center">
+            <p>&copy; 2025 Mercado de Barrio "La Alhóndiga".</p>
+            <p><small>Pablo Vidal Vidal</small></p>
+        </div>
+    </footer>
+    <!-- END FOOTER -->
+
+    <!-- BOOTSTRAP-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

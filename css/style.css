@@ -1,0 +1,34 @@
+:root {
+    --purple-primary: rgb(103, 8, 158);
+}
+
+.custom-purple {
+    color: var(--purple-primary);
+}
+
+.custom-bg-purple {
+    background-color: var(--purple-primary) !important;
+}
+
+.custom-btn-purple {
+    background-color: var(--purple-primary);
+    border: none;
+}
+
+.custom-btn-purple:hover {
+    background-color: #4b0572;
+}
+
+.transition-hover:hover {
+    transform: translateY(-0.3125rem);
+    transition: 0.3s;
+}
+
+.form-control:focus {
+    border-color: var(--purple-primary);
+    box-shadow: 0 0 0 0.25rem rgba(103, 8, 158, 0.25);
+}
+
+.img-carrousel{
+    height: 25rem; object-fit: cover;
+}
